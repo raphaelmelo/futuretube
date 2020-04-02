@@ -6,8 +6,12 @@ Acesse em https://raphaelmelo.github.io/futuretube/index.html
 
 Projeto de aplicação por ***Raphael Melo***
 
-***Instrutores***
+### Instrutures
 - João V.
 - Amanda 
 - Caio T.
+ 
+ ### Print
+ 
+
  
