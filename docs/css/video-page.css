@@ -1,0 +1,43 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+#container h2 {
+    padding: 10px 0;
+    
+    
+}
+
+.video-item {
+    width: 80%;
+    border: none;
+}
+
+.div-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.div-video video {
+    width: 100%;
+
+}
+
+.video-text p {
+
+}
+
+.video-item img {
+    margin-top: 30px;
+}
+
+
+
+ 

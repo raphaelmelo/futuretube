@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+header {
+  background-color: #f39c12;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 120px;
+  color: white;
+}
+
+h1 {
+  color: #fff;
+  background-color: #e74c3c;
+  padding: 0 10px;
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+}
+
+
+form {
+
+  width: 50%;
+
+}
+
+form input:first-child {
+  height: 20px;
+  width: 70%;
+  border-style: none;
+  padding: 5px 0;
+}
+main {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+#menu-lateral {
+  
+  width: 20vw;
+  min-width: 200px;
+  background-color: #f39c12;;
+}
+
+.ul1 {
+  padding-bottom: 10px;
+  border-top: 1px solid #e74c3c;
+
+}
+.ul2 {
+  padding-top: 10px;
+  border-top: 1px solid #e74c3c;
+}
+.menu-lista-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40px;
+  color: white;
+}
+
+
+.menu-lista-item:hover{
+  background-color: rgba(231, 231, 231, 0.9);
+}
+
+.menu-lista-item:active{
+  background-color: rgba(231, 231, 231, 0.9);
+}
+
+.lista-img {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.lista-img img{
+  width: 24px;
+}
+.menu-lista-item a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+#container {
+
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80vw;
+}
+
+.video-item {
+  width: 22vw;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 3px solid #f39c12;
+  font-size: 12px;
+  font-weight: 500;
+}
+#container img {
+  width: 100%;
+ }
+
+.video-item div:last-child {
+  text-align: justify;
+  padding: 2px;
+
+  
+}
+
+.video-item h2 {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+
+.video-item a {
+  text-decoration: none;
+  color: #7f8c8d;
+
+}
+
+footer {
+  
+  background-color: #f39c12;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  color: white;
+  
+}
+
+footer h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+@media (max-width: 770px) {
+  
+
+
+  
+.video-item {
+  width: 40vw; 
+}
+
+
+
+
+}
+
+
+
+@media (max-width: 500px) {
+  
+
+
+  
+  .video-item {
+    width: 40vw; 
+  }
+  
+  
+  
+  
+  }
