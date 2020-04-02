@@ -9,8 +9,8 @@
 
 #container h2 {
     padding: 10px 0;
-    
-    
+
+
 }
 
 .video-item {
@@ -25,19 +25,14 @@
     text-align: center;
 
 }
+
 .div-video video {
     width: 100%;
 
 }
 
-.video-text p {
-
-}
+.video-text p {}
 
 .video-item img {
     margin-top: 30px;
 }
-
-
-
- 
